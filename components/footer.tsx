@@ -1,11 +1,12 @@
 "use client";
 
-import { Github, Linkedin, Twitter, Heart } from "lucide-react";
+import { Github, Linkedin, Twitter, Heart, Instagram } from "lucide-react";
 
 const socialLinks = [
-  { icon: Github, href: "https://github.com", label: "GitHub" },
-  { icon: Linkedin, href: "https://linkedin.com", label: "LinkedIn" },
-  { icon: Twitter, href: "https://twitter.com", label: "Twitter" },
+  { icon: Github, href: "https://github.com/lsnnt", label: "GitHub" },
+  { icon: Linkedin, href: "https://linkedin.com/in/lsnnt", label: "LinkedIn" },
+  {icon:Instagram,href:"https://instagram.com/_lsnnt",label:"Instagram"}
+  // { icon: Twitter, href: "https://twitter.com", label: "Twitter" },
 ];
 
 const navLinks = [

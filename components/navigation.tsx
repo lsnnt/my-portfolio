@@ -1,7 +1,7 @@
 "use client";
 
 import { useState, useEffect } from "react";
-import { Github, Linkedin, Twitter, Menu, X } from "lucide-react";
+import { Github, Linkedin, Instagram,Twitter, Menu, X } from "lucide-react";
 import { cn } from "@/lib/utils";
 
 const navItems = [
@@ -12,9 +12,10 @@ const navItems = [
 ];
 
 const socialLinks = [
-  { icon: Github, href: "https://github.com", label: "GitHub" },
-  { icon: Linkedin, href: "https://linkedin.com", label: "LinkedIn" },
-  { icon: Twitter, href: "https://twitter.com", label: "Twitter" },
+  { icon: Github, href: "https://github.com/lsnnt", label: "GitHub" },
+  { icon: Linkedin, href: "https://linkedin.com/in/lsnnt", label: "LinkedIn" },
+  // { icon: Twitter, href: "https://twitter.com", label: "Twitter" },
+  {icon:Instagram,href:"https://instagram.com/_lsnnt",label:"Instagram"},
 ];
 
 interface NavigationProps {

@@ -6,52 +6,28 @@ import { Badge } from "@/components/ui/badge";
 
 const projects = [
   {
-    title: "Project Alpha",
+    title: "Chotadhobi-cli",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam euismod, nisi vel consectetur interdum.",
-    tags: ["React", "TypeScript", "Tailwind"],
-    github: "https://github.com",
-    demo: "https://example.com",
+      "Reverse Engineered Chotadhobi App used in VIT for laundary services exposing its backend apis",
+    tags: ["Reverse-Engineering", "Frida", "Burp-Suite", "Rooted AVD"],
+    github: "https://github.com/lsnnt/chotadhobi-cli",
+    demo: null,
   },
   {
-    title: "Project Beta",
+    title: "News-Archive",
     description:
-      "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
-    tags: ["Next.js", "Node.js", "PostgreSQL"],
-    github: "https://github.com",
-    demo: "https://example.com",
+      "A news archive solution archiving all the latest news automatically via github ci/cd",
+    tags: ["CI/CD", "Docker", "AWS S3", "Python"],
+    github: "https://github.com/lsnnt/news-upload",
+    demo: "https://www.scribd.com/user/688308679/Nityanand-Thakur",
   },
   {
-    title: "Project Gamma",
+    title: "DDns v6",
     description:
-      "Quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-    tags: ["Python", "FastAPI", "Redis"],
-    github: "https://github.com",
-    demo: "https://example.com",
-  },
-  {
-    title: "Project Delta",
-    description:
-      "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat.",
-    tags: ["Vue.js", "GraphQL", "MongoDB"],
-    github: "https://github.com",
-    demo: "https://example.com",
-  },
-  {
-    title: "Project Epsilon",
-    description:
-      "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit.",
-    tags: ["Rust", "WebAssembly", "Docker"],
-    github: "https://github.com",
-    demo: "https://example.com",
-  },
-  {
-    title: "Project Zeta",
-    description:
-      "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium.",
-    tags: ["Go", "gRPC", "Kubernetes"],
-    github: "https://github.com",
-    demo: "https://example.com",
+      "Automatically updates your cloudflare AAAA address to a specific ipv6 address which is yours for persistent mail delivery, website pointing etc",
+    tags: ["Rust", "IP.se api"],
+    github: "https://github.com/lsnnt/updateipv6addr",
+    demo: null,
   },
 ];
 
@@ -68,7 +44,7 @@ export function ProjectsSection() {
             Featured Projects
           </h2>
           <p className="text-muted-foreground text-lg max-w-2xl mx-auto leading-relaxed">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Here are
+            Here are
             some of my recent works that showcase my skills and passion.
           </p>
         </div>
@@ -96,15 +72,17 @@ export function ProjectsSection() {
                     >
                       <Github className="w-5 h-5" />
                     </a>
-                    <a
-                      href={project.demo}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="text-muted-foreground hover:text-primary transition-colors"
-                      aria-label={`View ${project.title} demo`}
-                    >
-                      <ExternalLink className="w-5 h-5" />
-                    </a>
+                    {project.demo && (
+                      <a
+                        href={project.demo}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="text-muted-foreground hover:text-primary transition-colors"
+                        aria-label={`View ${project.title} demo`}
+                      >
+                        <ExternalLink className="w-5 h-5" />
+                      </a>
+                    )}
                   </div>
                 </div>
                 <CardDescription className="text-muted-foreground leading-relaxed">
@@ -131,7 +109,7 @@ export function ProjectsSection() {
         {/* View All Link */}
         <div className="text-center mt-12">
           <a
-            href="https://github.com"
+            href="https://github.com/lsnnt"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center gap-2 text-primary hover:text-primary/80 transition-colors font-medium"

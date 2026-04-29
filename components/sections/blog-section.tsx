@@ -4,38 +4,38 @@ import { ArrowRight, Calendar } from "lucide-react";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 
 const blogPosts = [
+  // {
+  //   title: "Chotadhobi-cli",
+  //   excerpt:
+  //     "Reverse Engineered Chotadhobi App used in VIT for laundary services exposing its backend apis",
+  //   date: "2026-04-15",
+  //   readTime: "5 min read",
+  //   slug: "/blog/scalable-apps",
+  // },
   {
-    title: "Building Scalable Web Applications",
+    title: "Getting Train Data from inside the train",
     excerpt:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    date: "2026-04-15",
-    readTime: "5 min read",
-    slug: "/blog/scalable-apps",
+      "What was my thinking and approach to get the data from vande bharat train",
+    date: "2026-01-16",
+    readTime: "2 min read",
+    slug: "https://lsnnt.hashnode.dev/how-i-got-the-data-of-train-c2cf5237a7ed",
   },
   {
-    title: "Modern CSS Techniques for 2026",
+    title: "How i created my own custom DDns Script",
     excerpt:
-      "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-    date: "2026-03-28",
-    readTime: "8 min read",
-    slug: "/blog/modern-css",
+      "What was my setup so that my mail can be delivered to my mac",
+    date: "2026-01-16",
+    readTime: "2 min read",
+    slug: "https://lsnnt.hashnode.dev/how-i-created-my-own-custom-ddns-script-df3d5402658f",
   },
-  {
-    title: "The Future of React Development",
-    excerpt:
-      "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
-    date: "2026-03-10",
-    readTime: "6 min read",
-    slug: "/blog/react-future",
-  },
-  {
-    title: "Optimizing Performance in Next.js",
-    excerpt:
-      "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-    date: "2026-02-22",
-    readTime: "10 min read",
-    slug: "/blog/nextjs-performance",
-  },
+  // {
+  //   title: "Optimizing Performance in Next.js",
+  //   excerpt:
+  //     "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+  //   date: "2026-02-22",
+  //   readTime: "10 min read",
+  //   slug: "/blog/nextjs-performance",
+  // },
 ];
 
 export function BlogSection() {
@@ -51,7 +51,7 @@ export function BlogSection() {
             Latest Articles
           </h2>
           <p className="text-muted-foreground text-lg max-w-2xl mx-auto leading-relaxed">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Thoughts on
+            Thoughts on
             design, development, and building for the web.
           </p>
         </div>
@@ -88,6 +88,7 @@ export function BlogSection() {
                 </CardDescription>
                 <a
                   href={post.slug}
+                  target="_blank"
                   className="inline-flex items-center gap-2 text-primary hover:text-primary/80 transition-colors text-sm font-medium group/link"
                 >
                   <span>Read article</span>
@@ -101,7 +102,8 @@ export function BlogSection() {
         {/* View All Link */}
         <div className="text-center mt-12">
           <a
-            href="/blog"
+            href="https://lsnnt.hashnode.dev/"
+            target="_blank"
             className="inline-flex items-center gap-2 text-primary hover:text-primary/80 transition-colors font-medium"
           >
             <span>View all articles</span>
