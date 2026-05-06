@@ -4,14 +4,14 @@ import { ArrowRight, Calendar } from "lucide-react";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 
 const blogPosts = [
-  // {
-  //   title: "Chotadhobi-cli",
-  //   excerpt:
-  //     "Reverse Engineered Chotadhobi App used in VIT for laundary services exposing its backend apis",
-  //   date: "2026-04-15",
-  //   readTime: "5 min read",
-  //   slug: "/blog/scalable-apps",
-  // },
+  {
+    title: "How did i reverse engineered Chotadhobi app",
+    excerpt:
+      "Reverse Engineered Chotadhobi App used in VIT for laundary services exposing its backend apis",
+    date: "2026-06-01",
+    readTime: "1 min read",
+    slug: "https://lsnnt.hashnode.dev/how-do-i-reverse-engineered-chotadhobi-app",
+  },
   {
     title: "Getting Train Data from inside the train",
     excerpt:

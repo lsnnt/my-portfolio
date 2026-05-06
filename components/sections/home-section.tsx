@@ -99,7 +99,7 @@ export function HomeSection() {
             <span className="hidden sm:inline text-sm">Instagram</span>
           </a>
           <a
-            href="mailto:nnt@lsnnt.in"
+            href="mailto:tnityanand523@gmail.com"
             className="flex items-center gap-2 text-muted-foreground hover:text-primary transition-colors group"
           >
             <Mail className="w-5 h-5" />
