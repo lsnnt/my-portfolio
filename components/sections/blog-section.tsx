@@ -10,7 +10,7 @@ const blogPosts = [
       "Reverse Engineered Chotadhobi App used in VIT for laundary services exposing its backend apis",
     date: "2026-06-01",
     readTime: "1 min read",
-    slug: "https://lsnnt.hashnode.dev/how-do-i-reverse-engineered-chotadhobi-app",
+    slug: "https://blog.lsnnt.dev/how-do-i-reverse-engineered-chotadhobi-app",
   },
   {
     title: "Getting Train Data from inside the train",
@@ -18,7 +18,7 @@ const blogPosts = [
       "What was my thinking and approach to get the data from vande bharat train",
     date: "2026-01-16",
     readTime: "2 min read",
-    slug: "https://lsnnt.hashnode.dev/how-i-got-the-data-of-train-c2cf5237a7ed",
+    slug: "https://blog.lsnnt.dev/how-i-got-the-data-of-train-c2cf5237a7ed",
   },
   {
     title: "How i created my own custom DDns Script",
@@ -26,7 +26,7 @@ const blogPosts = [
       "What was my setup so that my mail can be delivered to my mac",
     date: "2026-01-16",
     readTime: "2 min read",
-    slug: "https://lsnnt.hashnode.dev/how-i-created-my-own-custom-ddns-script-df3d5402658f",
+    slug: "https://blog.lsnnt.dev/how-i-created-my-own-custom-ddns-script-df3d5402658f",
   },
   // {
   //   title: "Optimizing Performance in Next.js",
@@ -102,7 +102,7 @@ export function BlogSection() {
         {/* View All Link */}
         <div className="text-center mt-12">
           <a
-            href="https://lsnnt.hashnode.dev/"
+            href="https://blog.lsnnt.dev/"
             target="_blank"
             className="inline-flex items-center gap-2 text-primary hover:text-primary/80 transition-colors font-medium"
           >
