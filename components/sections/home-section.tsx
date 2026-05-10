@@ -1,7 +1,7 @@
 "use client";
 
 import { ArrowDown, Github, Linkedin, Mail, Instagram } from "lucide-react";
-import {siCodeforces, siHuggingface, siLeetcode} from 'simple-icons';
+import {siCodeforces, siDiscord, siHuggingface, siLeetcode, siTelegram} from 'simple-icons';
 export function HomeSection() {
   const scrollToProjects = () => {
     const element = document.getElementById("projects");
@@ -97,6 +97,34 @@ export function HomeSection() {
           >
             <Instagram className="w-5 h-5" />
             <span className="hidden sm:inline text-sm">Instagram</span>
+          </a>
+          <a
+            href="https://t.me/cdnnt"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="flex items-center gap-2 text-muted-foreground hover:text-primary transition-colors group"
+          >
+            <svg
+            viewBox="0 0 24 24"
+            className="w-5 h-5 fill-current"
+          >
+            <path d={siTelegram.path} />
+          </svg>
+            <span className="hidden sm:inline text-sm">Telegram</span>
+          </a>
+          <a
+            href="https://discord.dog/1337121082141966397"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="flex items-center gap-2 text-muted-foreground hover:text-primary transition-colors group"
+          >
+            <svg
+            viewBox="0 0 24 24"
+            className="w-5 h-5 fill-current"
+          >
+            <path d={siDiscord.path} />
+          </svg>
+            <span className="hidden sm:inline text-sm">Discord</span>
           </a>
           <a
             href="mailto:tnityanand523@gmail.com"
