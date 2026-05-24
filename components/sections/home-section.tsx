@@ -31,7 +31,7 @@ export function HomeSection() {
         </p>
 
         {/* Social Links */}
-        <div className="flex items-center justify-center gap-6 mb-12 animate-in fade-in slide-in-from-bottom-10 duration-700 delay-300">
+        <div className="flex flex-wrap items-center justify-center gap-6 mb-12 animate-in fade-in slide-in-from-bottom-10 duration-700 delay-300">
           <a
             href="https://github.com/lsnnt"
             target="_blank"
