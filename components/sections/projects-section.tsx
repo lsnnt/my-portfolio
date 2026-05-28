@@ -6,6 +6,13 @@ import { Badge } from "@/components/ui/badge";
 
 const projects = [
   {
+    title: "Spotify-banner-for-github",
+    description: "An http server that returns a svg image of the last 20 songs listened on spotify",
+    tags: ["svg","go","spotify","github-profile"],
+    github: "https://github.com/lsnnt/spotify-banner-for-github",
+    demo: "https://spotify.fustin.top/"
+  },
+  {
     title: "Chotadhobi-cli",
     description:
       "Reverse Engineered Chotadhobi App used in VIT for laundary services exposing its backend apis",
