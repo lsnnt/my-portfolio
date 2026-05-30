@@ -1,7 +1,7 @@
 "use client";
 
 import { ArrowDown, Github, Linkedin, Mail, Instagram } from "lucide-react";
-import {siCodeforces, siDiscord, siHuggingface, siLeetcode, siTelegram} from 'simple-icons';
+import {siBluesky, siCodeforces, siDiscord, siHuggingface, siLeetcode, siTelegram} from 'simple-icons';
 export function HomeSection() {
   const scrollToProjects = () => {
     const element = document.getElementById("projects");
@@ -125,6 +125,20 @@ export function HomeSection() {
             <path d={siDiscord.path} />
           </svg>
             <span className="hidden sm:inline text-sm">Discord</span>
+          </a>
+          <a
+            href="https://bsky.app/profile/lsnnt.dev"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="flex items-center gap-2 text-muted-foreground hover:text-primary transition-colors group"
+          >
+            <svg
+            viewBox="0 0 24 24"
+            className="w-5 h-5 fill-current"
+          >
+            <path d={siBluesky.path} />
+          </svg>
+            <span className="hidden sm:inline text-sm">Bluesky</span>
           </a>
           <a
             href="mailto:tnityanand523@gmail.com"
