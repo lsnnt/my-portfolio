@@ -6,6 +6,13 @@ import { Badge } from "@/components/ui/badge";
 
 const projects = [
   {
+    title:"nghost (formerly ghost)",
+    description: "a LAN-aware cooperative caching system that reuse downloaded assets locally, reducing internet bandwidth usage through peer discovery and cache sharing.",
+    tags: ["caching", "lan", "p2p", "homelab", "bandwidth-optimization"],
+    github: "https://github.com/lsnnt/nghost",
+    demo: "https://asciinema.org/a/wI0On0WhwyeupHYH"
+  },
+  {
     title: "Spotify-banner-for-github",
     description: "An http server that returns a svg image of the last 20 songs listened on spotify",
     tags: ["svg","go","spotify","github-profile"],

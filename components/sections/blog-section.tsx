@@ -5,6 +5,13 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/com
 
 const blogPosts = [
   {
+    title: "How i built a web server very close to hardware on top of linux kernel",
+    excerpt: "The blog demonstates a hands on guide of how i compiled linux built busybox and a webserver on top of it",
+    date: "2026-06-22",
+    readTime:"9 mins read",
+    slug: "https://blog.lsnnt.dev/making-an-http-server-very-close-to-computer"
+  },
+  {
     title: "How did i reverse engineered Chotadhobi app",
     excerpt:
       "Reverse Engineered Chotadhobi App used in VIT for laundary services exposing its backend apis",
