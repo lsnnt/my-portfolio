@@ -52,7 +52,7 @@ export function ProjectsSection() {
         {/* Section Header */}
         <div className="text-center mb-16">
           <p className="text-primary font-mono text-sm tracking-widest uppercase mb-4">
-            lsnnt
+            Nityanand Thakur's
           </p>
           <h2 className="text-3xl md:text-5xl font-bold text-foreground mb-6">
             Featured Projects

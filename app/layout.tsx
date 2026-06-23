@@ -7,9 +7,9 @@ const _geist = Geist({ subsets: ["latin"] });
 const _geistMono = Geist_Mono({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: 'lsnnt | Creative Developer',
+  title: 'Nityanand Thakur | Creative Developer',
   description: 'A visually engaging portfolio showcasing creative digital experiences, projects, and insights. Building polished software and web experiences.',
-  generator: 'v0.app',
+  generator: 'v0',
   icons: {
     icon: [
       {

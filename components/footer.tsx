@@ -31,7 +31,7 @@ export function Footer() {
           {/* Logo & Copyright */}
           <div className="text-center md:text-left">
             <p className="text-xl font-semibold text-foreground mb-2">
-              lsnnt
+              Nityanand Thakur
             </p>
             <p className="text-muted-foreground text-sm">
               © {new Date().getFullYear()} All rights reserved.

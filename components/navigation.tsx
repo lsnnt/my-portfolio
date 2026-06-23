@@ -58,7 +58,7 @@ export function Navigation({ activeSection }: NavigationProps) {
             onClick={() => scrollToSection("home")}
             className="text-xl font-semibold tracking-tight text-foreground hover:text-primary transition-colors"
           >
-            lsnnt
+            Nityanand Thakur
           </button>
 
           {/* Desktop Navigation */}
